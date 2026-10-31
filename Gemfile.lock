@@ -89,11 +89,11 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    addressable (2.9.0)
+    addressable (2.9.1)
       public_suffix (>= 2.0.2, < 8.0)
     aes_key_wrap (1.1.0)
     android_key_attestation (0.3.0)
-    annotaterb (4.25.0)
+    annotaterb (4.26.0)
       activerecord (>= 6.0.0)
       activesupport (>= 6.0.0)
     ast (2.4.3)
@@ -112,8 +112,8 @@ GEM
     aws-sdk-kms (1.135.0)
       aws-sdk-core (~> 3, >= 3.260.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-s3 (1.235.0)
-      aws-sdk-core (~> 3, >= 3.258.0)
+    aws-sdk-s3 (1.237.0)
+      aws-sdk-core (~> 3, >= 3.263.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
@@ -942,10 +942,10 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (~> 0.10)
-  addressable (~> 2.8)
-  annotaterb (~> 4.13)
+  addressable (~> 2.9)
+  annotaterb (~> 4.26)
   aws-sdk-core
-  aws-sdk-s3 (~> 1.123)
+  aws-sdk-s3 (~> 1.237)
   base58 (~> 0.2.3)
   better_errors (~> 2.9)
   binding_of_caller

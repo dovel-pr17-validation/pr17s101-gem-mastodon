@@ -14,7 +14,7 @@ gem 'pg', '~> 1.5'
 gem 'pghero'
 
 gem 'aws-sdk-core', require: false
-gem 'aws-sdk-s3', '~> 1.123', require: false
+gem 'aws-sdk-s3', '~> 1.237', require: false
 gem 'blurhash', '~> 0.1'
 gem 'fog-core', '<= 2.6.0'
 gem 'fog-openstack', '~> 1.0', require: false
@@ -23,7 +23,7 @@ gem 'kt-paperclip', '~> 8.0'
 gem 'ruby-vips', '~> 2.2', require: false
 
 gem 'active_model_serializers', '~> 0.10'
-gem 'addressable', '~> 2.8'
+gem 'addressable', '~> 2.9'
 gem 'bootsnap', require: false
 gem 'browser'
 gem 'charlock_holmes', '~> 0.7.7'
@@ -175,7 +175,7 @@ group :development do
   gem 'rubocop-rspec_rails', require: false
 
   # Annotates modules with schema
-  gem 'annotaterb', '~> 4.13', require: false
+  gem 'annotaterb', '~> 4.26', require: false
 
   # Enhanced error message pages for development
   gem 'better_errors', '~> 2.9'
